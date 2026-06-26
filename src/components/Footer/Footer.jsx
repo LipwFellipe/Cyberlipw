@@ -6,7 +6,7 @@ const Footer = () => {
       <div className={`container ${styles.inner}`}>
         <div className={styles.brand}>
           <img src="/logo.svg" alt="" width="22" height="22" />
-          <span>SentinelaHub</span>
+          <span>CyberLipw</span>
         </div>
         <p className={styles.note}>
           Projeto acadêmico · Linguagem de Programação para Internet · UNIUBE

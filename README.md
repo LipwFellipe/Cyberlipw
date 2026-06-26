@@ -1,4 +1,4 @@
-# 🛡️ SentinelaHub — Portal de Cibersegurança
+# 🛡️ CyberLipw — Portal de Cibersegurança
 
 Single Page Application desenvolvida em React para a disciplina **Linguagem de Programação para Internet** (UNIUBE), como trabalho final.
 
@@ -10,11 +10,11 @@ Single Page Application desenvolvida em React para a disciplina **Linguagem de P
 
 ## 📌 Título do projeto
 
-**SentinelaHub** — Portal educacional de cibersegurança.
+**CyberLipw** — Portal educacional de cibersegurança.
 
 ## 📝 Descrição do projeto
 
-O SentinelaHub é uma aplicação frontend (SPA) que reúne, em um só lugar, um catálogo de ameaças digitais, um arsenal de ferramentas de defesa e trilhas de aprendizado de segurança da informação. A navegação acontece sem recarregar a página, com conteúdo renderizado dinamicamente a partir de dados mockados localmente. O foco é apresentar o conteúdo de forma visual, organizada e interativa, com identidade própria (tema escuro "cyber" com detalhes em neon).
+O CyberLipw é uma aplicação frontend (SPA) que reúne, em um só lugar, um catálogo de ameaças digitais, um arsenal de ferramentas de defesa e trilhas de aprendizado de segurança da informação. A navegação acontece sem recarregar a página, com conteúdo renderizado dinamicamente a partir de dados mockados localmente. O foco é apresentar o conteúdo de forma visual, organizada e interativa, com identidade própria (tema escuro "cyber" com detalhes em neon).
 
 Não há backend, banco de dados ou API: todos os dados são definidos no próprio frontend, na pasta `src/data`.
 
@@ -95,7 +95,7 @@ npm run preview    # serve a build localmente para conferência
 
 ## 🔗 Repositório no GitHub
 
-> https://github.com/luiznunesMitra/sentinelahub
+> https://github.com/SEU-USUARIO/cyberlipw
 >
 > *(substitua pelo link real após criar o repositório)*
 

@@ -13,7 +13,7 @@ const Hero = () => {
           Entenda as <span className={styles.grad}>ameaças</span> antes que elas te encontrem.
         </h1>
         <p className={styles.lead}>
-          O SentinelaHub reúne ameaças, ferramentas e trilhas de aprendizado de
+          O CyberLipw reúne ameaças, ferramentas e trilhas de aprendizado de
           cibersegurança num só lugar, com um radar interativo para você explorar o
           cenário de riscos de forma visual.
         </p>

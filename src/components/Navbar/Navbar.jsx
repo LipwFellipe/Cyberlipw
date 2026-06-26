@@ -17,8 +17,8 @@ const Navbar = () => {
     <header className={styles.header}>
       <div className={`container ${styles.bar}`}>
         <NavLink to="/" className={styles.brand} onClick={() => setOpen(false)}>
-          <img src="/logo.svg" alt="Logo SentinelaHub" width="30" height="30" />
-          <span>Sentinela<strong>Hub</strong></span>
+          <img src="/logo.svg" alt="Logo CyberLipw" width="30" height="30" />
+          <span>Cyber<strong>Lipw</strong></span>
         </NavLink>
 
         <button
