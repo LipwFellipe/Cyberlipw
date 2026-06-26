@@ -1,0 +1,132 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  border-color: rgba(34, 211, 238, 0.5);
+  transform: translateY(-3px);
+}
+
+.cardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.level {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.05em;
+}
+
+.iniciante {
+  color: var(--green);
+  background: rgba(52, 211, 153, 0.12);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+}
+
+.intermediário {
+  color: var(--cyan);
+  background: rgba(34, 211, 238, 0.12);
+  border: 1px solid rgba(34, 211, 238, 0.3);
+}
+
+.avançado {
+  color: var(--purple);
+  background: rgba(168, 85, 247, 0.12);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+
+.lessons {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+
+.topics {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.topics li {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+.tipBox {
+  margin-top: 40px;
+  padding: 28px;
+  text-align: center;
+  background:
+    radial-gradient(120% 120% at 50% 0%, rgba(168, 85, 247, 0.1), transparent),
+    var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+}
+
+.tipLabel {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--purple);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.tipText {
+  font-size: 1.25rem;
+  font-weight: 600;
+  max-width: 60ch;
+  margin: 12px auto 18px;
+}
+
+.tipBtn {
+  background: transparent;
+  border: 1px solid var(--purple);
+  color: var(--purple);
+  padding: 10px 22px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tipBtn:hover {
+  background: var(--purple);
+  color: #150b22;
+}
+
+@media (max-width: 760px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

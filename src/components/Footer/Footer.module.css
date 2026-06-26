@@ -1,0 +1,33 @@
+.footer {
+  border-top: 1px solid var(--border);
+  background: var(--bg-elev);
+  padding: 28px 0;
+  margin-top: 40px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  text-align: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.note {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--green);
+  opacity: 0.7;
+}
